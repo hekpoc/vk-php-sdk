@@ -1,0 +1,25 @@
+{
+  "name": "hekpoc/vk-php-sdk",
+  "description": "Vkontakte SDK for PHP",
+  "keywords": ["vkontakte", "vk", "sdk"],
+  "type": "library",
+  "homepage": "https://github.com/hekpoc/vk-php-sdk",
+  "authors": [
+    {
+      "name": "Aleksandr Yakovin"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "VK\\": "src/VK/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Facebook\\Tests\\": "tests/"
+    }
+  }
+}
